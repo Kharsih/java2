@@ -1,0 +1,16 @@
+//In this method  : Inheritance
+
+package mypackage;
+
+public class Programmer {
+	   float salary = 40000;
+	}
+	class Work  extends Programmer{
+		static int bonus=10000;
+		public static void main(String args[]) {
+			Programmer p=new Programmer();
+			System.out.println("Work  salary is :" + p.salary);
+			System.out.println("Bonus of Work  is : "  + bonus);
+			
+		}
+	}
