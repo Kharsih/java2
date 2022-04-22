@@ -1,0 +1,23 @@
+//In this Method : Abstraction ,Classes Objects and Constructors.
+
+package mypackage;
+
+public class Square {
+  public void display() {
+	    System.out.println("Area of square is");
+  }
+  public float area() {
+	  float side=15f;
+	  return side*side;
+	  }
+  public float perimeter() {
+	  float size=10f;
+	  return 4*size;
+  }
+  public static void main(String args[])
+  {
+	  Square s1 = new Square();
+	  Square s2 = new Square();
+	  System.out.println("Area of Square is " + s1.area() + "\n"+ "perimeter of Square is  " + s2.perimeter() + "\n");
+  }
+}
