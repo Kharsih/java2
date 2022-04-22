@@ -1,0 +1,19 @@
+//in this method  : Method overloading and Polymorphism
+
+package mypackage;
+
+public class Shapeone {
+  public static void main (String args[]) {
+	  System.out.println("Area of Square is"  + Calculation.area(35));
+	  System.out.println("Area of circle is"  + Calculation.area(20f));
+  }
+}
+class Calculation {
+	  static int area(int side) {
+		  return side*side;
+	  }
+	  static float area(float  radius) {
+		  return (float) (3.14* radius *radius);
+	  }
+}
+	
