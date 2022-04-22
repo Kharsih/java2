@@ -1,0 +1,23 @@
+//in this method : Method overridden
+
+package mypackage;
+
+public class Car {
+     void display() {
+    	 System.out.println("car");
+     }
+     public static void main(String ags[]) {
+    	 Car obj = new Lamborgini2();
+    	 obj.display();
+     }
+}
+class Audi2 extends Car{
+	void display() {
+		  System.out.println("Audi");
+	}
+}
+class Lamborgini2 extends Car{
+	void display() {
+		  System.out.println("Lamborgini");
+	}
+}
