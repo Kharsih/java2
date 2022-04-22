@@ -1,0 +1,48 @@
+//IN THIS Method:  Encapsulation
+
+package mypackage;
+
+public class Employee {
+      private int id;
+      private String name;
+      private static String company;
+      private static String address;
+       
+      public int getId() {
+    	  return id;
+    	  
+      }
+      public String getName() {
+    	  return name;
+      }
+      public static String getCompany() {
+    	  return company;
+      }
+      public static String getaddress() {
+    	  return address;
+      }
+      public void setid(int newId) {
+    	  this.id= newId;
+      }
+      public void setname(String newName) {
+    	  this.name= newName;
+      }
+      public void setcompany(String newcompany) {
+    	  this.company= newcompany;
+      }
+      public void setaddress(String newaddress) {
+    	  this.address= newaddress;
+      }
+      public static void main(String args[] ) {
+    	  Employee e = new Employee();
+    	  e.setid(01);
+    	  e.setname("KondaHarish");
+    	  e.setcompany("aspire systems");
+    	  e.setaddress("RTC Colony");
+    	  System.out.println("Id: " + e.getId() + "\n"  +
+    	                                   "name :" + e.getName() +"\n"
+    	                                   + "company :" + getCompany() +"\n"
+    	                                   + "address  : "  + getaddress() +"\n");
+      }
+
+}
