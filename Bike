@@ -1,0 +1,24 @@
+package mypackage;
+import java.util.ArrayList;
+public class Bike {
+	public static void main(String ags[]) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Jawa");
+		list.add("Bullet");
+		list.add("KTM");
+		list.add("Duke");
+		list.add("Splender");
+		list.add("TVS");
+		  System.out.println("ArrayList: " +list);
+   	   list.set(2, "Jawa");
+   	   list.set(0, "Bullet");
+       list.set(1, "KTM");
+   	   list.set(4, "Duke");
+       list.set(3, "TVS");
+   	   list.set(5, "Splender");
+   		   System.out.println("After  Setting An index: " +list);
+    	   list.remove("Splender");
+    	   System.out.println("Afte Object Removal: " +list);
+	}
+
+}
